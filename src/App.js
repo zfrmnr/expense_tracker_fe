@@ -39,7 +39,7 @@ const clearcompleted=() =>{
        <div 
        key={index}
        onClick={()=>markCompleted(item.id)}
-       className={item.tamamlandı ? "yapıldı" : " "}>{item.baslik}</div>))}
+       className={item.tamamlandı ? "yapıldı." : " "}>{item.baslik}</div>))}
       { /*<div>yapılacak</div>
        <div className="yapıldı">yapıldı</div>*/}
      </div>
